@@ -38,8 +38,8 @@ general:
 # ---------------------------------------------------------------------------------
 isa-instruction-distribution:
   rel_sys: 0
-  rel_sys.csr: 0
-  rel_rv32i.ctrl: 0
+  rel_sys.csr: 1
+  rel_rv32i.ctrl: 1
   rel_rv32i.compute: 10
   rel_rv32i.data: 10
   rel_rv32i.fence: 10
@@ -178,7 +178,7 @@ d-cache:
 exception-generation:
   ecause00: 0
   ecause01: 0
-  ecause02: 0
+  ecause02: 10
   ecause03: 0
   ecause04: 0
   ecause05: 0
