@@ -321,42 +321,42 @@ add x0,x0,x0
   ret
 
 .macro ecause02_00000
-.half 0x9C4C
+.word 0x67700CD3
 .endm
       
 .macro ecause02_00001
-.word 0xAE66AC7F
+.word 0x5074165B
 .endm
       
 .macro ecause02_00002
-.word 0x7002BD3B
+.word 0x945AC98B
 .endm
       
 .macro ecause02_00003
-.word 0xF9C5F667
+.word 0x5074165B
 .endm
       
 .macro ecause02_00004
-.word 0xAE66AC7F
+.word 0x71D05ED3
 .endm
       
 .macro ecause02_00005
-.word 0x7002BD3B
+.word 0x18EF2DBF
 .endm
       
 .macro ecause02_00006
-.word 0xAE66AC7F
+.word 0x5730C73B
 .endm
       
 .macro ecause02_00007
-.word 0x59B2FAAB
+.word 0xA85ACFA3
 .endm
       
 .macro ecause02_00008
-.word 0x59B2FAAB
+.word 0x71D05ED3
 .endm
       
 .macro ecause02_00009
-.word 0x6D43582F
+.word 0x18EF2DBF
 .endm
       
